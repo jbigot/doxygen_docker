@@ -6,6 +6,6 @@ RUN \
     && apt-get -y install apt-utils \
     && apt-get -y upgrade \
     && apt-get -y install \
-    && apt-get -y install doxygen graphviz cmake python3-dev python3-distutils gcc g++ gfortran \
+    && apt-get -y install doxygen graphviz cmake python3-dev python3-distutils gcc g++ gfortran git \
     && apt-get -y autoclean \
     && apt-get -y clean
